@@ -4,34 +4,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FacturApp | Programa de facturación local para autónomos y pequeñas empresas</title>
+
+  <title>FacturApp | Programa de facturación para autónomos y VERI*FACTU</title>
+
   <meta name="description"
-    content="FacturApp es un programa de facturación sencillo, gratuito durante la beta y privado: trabaja en local, crea facturas y prepara tu negocio para VeriFactu sin complicaciones.">
-  <meta name="keywords"
-    content="programa de facturación, facturación para autónomos, software de facturación local, FacturApp, FacturaApp, VeriFactu, facturas para pequeñas empresas">
+    content="FacturApp es un programa de facturación gratuito para autónomos y pequeñas empresas. Trabaja en local, importa tus datos fácilmente y prepárate para VERI*FACTU sin suscripciones.">
+
   <meta name="author" content="Codificatec">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://albertomf1996.github.io/facturaapp-web/">
-  <meta property="og:title" content="FacturApp | Facturación sencilla, privada y en local">
+
+  <link rel="canonical" href="https://codificatec.es/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FacturApp | Facturación sencilla, privada y sin suscripciones">
+
   <meta property="og:description"
-    content="Crea facturas desde tu ordenador, mantén tus datos en local y trabaja con VeriFactu sin complicaciones.">
+    content="Programa de facturación gratuito para autónomos y pequeñas empresas. Tus datos permanecen en local y puedes importar tu información fácilmente.">
+
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://codificatec.es/">
   <meta property="og:locale" content="es_ES">
-  <meta property="og:image" content="assets/img/logo-codificatec.png">
+  <meta property="og:site_name" content="Codificatec">
+  <meta property="og:image" content="https://codificatec.es/assets/img/logo-codificatec.png">
+
+  <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="FacturApp | Facturación sencilla, privada y en local">
+
+  <meta name="twitter:title" content="FacturApp | Facturación sencilla, privada y sin suscripciones">
+
   <meta name="twitter:description"
-    content="Programa de facturación para autónomos y pequeñas empresas. Gratis durante la beta, en local y preparado para evolucionar contigo.">
+    content="Programa de facturación gratuito para autónomos y pequeñas empresas. En local, privado y preparado para VERI*FACTU.">
+
+  <meta name="twitter:image" content="https://codificatec.es/assets/img/logo-codificatec.png">
+
+  <!-- Estilos -->
   <link rel="preload" href="assets/css/styles.css" as="style">
   <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Icono -->
   <link rel="icon" href="assets/img/logo-codificatec.png">
+
+  <!-- Datos estructurados: aplicación -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "FacturApp",
+    "url": "https://codificatec.es/",
+    "description": "Programa de facturación gratuito para autónomos y pequeñas empresas. Funciona principalmente en local, permite importar datos y está orientado a VERI*FACTU.",
     "applicationCategory": "BusinessApplication",
+    "applicationSubCategory": "Programa de facturación",
     "operatingSystem": "Windows",
+    "softwareRequirements": "Windows",
+    "downloadUrl": "https://github.com/AlbertoMF1996/FacturasApp_releases/releases/latest/download/FacturaApp-win-Setup.exe",
+    "image": "https://codificatec.es/assets/img/logo-codificatec.png",
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -39,196 +65,726 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Codificatec"
-    },
-    "description": "Programa de facturación local para autónomos y pequeñas empresas, gratuito durante la beta y orientado a VeriFactu."
+      "name": "Codificatec",
+      "url": "https://codificatec.es/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://codificatec.es/assets/img/logo-codificatec.png"
+      }
+    }
+  }
+  </script>
+
+  <!-- Datos estructurados: Codificatec -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Codificatec",
+    "url": "https://codificatec.es/",
+    "logo": "https://codificatec.es/assets/img/logo-codificatec.png"
   }
   </script>
 </head>
 
 <body>
+
   <header class="site-header" data-header>
     <div class="container header-inner">
+
       <a class="brand" href="index.html" aria-label="Volver al inicio de FacturApp">
-        <img src="assets/img/logo-codificatec.png" alt="Codificatec" class="brand-logo">
+        <img src="assets/img/logo-codificatec.png" alt="Codificatec"
+         class="brand-logo"
+         width="1498"
+         height="138">
+
         <span class="brand-product">FacturApp</span>
       </a>
+
       <nav class="main-nav" aria-label="Navegación principal">
         <a href="#privacidad">Privacidad</a>
-        <a href="#verifactu">VeriFactu</a>
+        <a href="#verifactu">VERI*FACTU</a>
+        <a href="#faq">Preguntas frecuentes</a>
         <a href="#beta">Beta</a>
       </nav>
+
     </div>
   </header>
 
+
   <main>
+
+    <!-- HERO -->
     <section class="hero section">
       <div class="container hero-grid">
+
         <div class="hero-copy">
-          <span class="eyebrow">Gratis para Windows</span>
-          <h1>Facturación sencilla, privada y para siempre.</h1>
-          <p class="hero-text">FacturApp es una aplicación de escritorio para autónomos y pequeñas empresas que quieren
-            crear facturas sin complicaciones, trabajar en local y mantener el control total de sus datos.</p>
+
+          <span class="eyebrow">
+            Gratis para Windows
+          </span>
+
+          <h1>
+            Programa de facturación sencillo, privado y para siempre.
+          </h1>
+
+          <p class="hero-text">
+            FacturApp es un programa de facturación para autónomos y pequeñas empresas
+            que quieren crear facturas sin complicaciones, trabajar en local y mantener
+            el control total de sus datos, sin cuotas mensuales ni suscripciones.
+          </p>
+
           <div class="hero-actions">
+
             <a id="mainDownloadButton" class="btn btn-primary"
               href="https://github.com/AlbertoMF1996/FacturasApp_releases/releases/latest/download/FacturaApp-win-Setup.exe"
-              download>Descargar para Windows</a>
-            <p class="download-note">Aplicación gratuita · Tus datos se guardan en tu equipo · Sin suscripciones</p>
+              download>
+              Descargar para Windows
+            </a>
+
+            <p class="download-note">
+              Aplicación gratuita · Tus datos se guardan en tu equipo · Sin suscripciones
+            </p>
+
           </div>
         </div>
+
+
         <div class="hero-card" aria-label="Resumen visual de FacturApp">
+
           <div class="app-window">
-            <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+
+            <div class="window-dots" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
             <div class="invoice-preview">
+
               <div class="preview-top">
                 <div>
                   <span class="small-label">Factura</span>
                   <strong>000001</strong>
                 </div>
-                <span class="status-pill">Local</span>
+
+                <span class="status-pill">
+                  Local
+                </span>
               </div>
+
               <div class="preview-line wide"></div>
               <div class="preview-line"></div>
-              <div class="preview-row"><span>Diseño limpio</span><strong>PDF</strong></div>
-              <div class="preview-row"><span>Gestiona tus datos</span><strong>Base de datos local y privada</strong>
+
+              <div class="preview-row">
+                <span>Diseño limpio</span>
+                <strong>PDF</strong>
               </div>
-              <div class="preview-row"><span>VeriFactu</span><strong>Activo</strong></div>
-              <div class="preview-total"><span>Total</span><strong>GRATIS</strong></div>
+
+              <div class="preview-row">
+                <span>Gestiona tus datos</span>
+                <strong>Base de datos local y privada</strong>
+              </div>
+
+              <div class="preview-row">
+                <span>VERI*FACTU</span>
+                <strong>Activo</strong>
+              </div>
+
+              <div class="preview-total">
+                <span>Total</span>
+                <strong>GRATIS</strong>
+              </div>
+
             </div>
           </div>
         </div>
+
       </div>
     </section>
 
+
+    <!-- PRIVACIDAD / CARACTERÍSTICAS -->
     <section id="privacidad" class="section features-section">
       <div class="container">
+
         <div class="section-heading">
-          <span class="eyebrow">Pensada para trabajar tranquilo</span>
-          <h2>Todo lo necesario para facturar sin depender de la nube.</h2>
+
+          <span class="eyebrow">
+            Pensada para trabajar tranquilo
+          </span>
+
+          <h2>
+            Programa de facturación local para trabajar sin depender de la nube.
+          </h2>
+
         </div>
+
+
         <div class="feature-grid">
+
           <article class="feature-card">
-            <span class="feature-icon">⌂</span>
-            <h3>En local y privada</h3>
-            <p>Tus empresas, clientes y facturas se guardan en tu ordenador. Sin subir tu información a servidores
-              externos.</p>
+
+            <span class="feature-icon">
+              ⌂
+            </span>
+
+            <h3>
+              En local y privada
+            </h3>
+
+            <p>
+              Tus empresas, clientes y facturas se guardan en tu ordenador.
+              Sin subir tu información a servidores externos.
+            </p>
+
           </article>
+
+
           <article class="feature-card">
-            <span class="feature-icon">∞</span>
-            <h3>Gratis para siempre</h3>
-            <p>FacturApp es gratuita para su uso principal, para siempre. Sin cuotas mensuales, sin suscripciones y con
-              tus datos siempre en local.</p>
+
+            <span class="feature-icon">
+              ∞
+            </span>
+
+            <h3>
+              Gratis para siempre
+            </h3>
+
+            <p>
+              FacturApp es gratuita para su uso principal, para siempre.
+              Sin cuotas mensuales, sin suscripciones y con tus datos siempre en local.
+            </p>
+
           </article>
+
+
           <article class="feature-card">
-            <span class="feature-icon">✓</span>
-            <h3>Sencilla desde el primer día</h3>
-            <p>Crea clientes, configura tu empresa, genera facturas PDF y trabaja con una interfaz limpia y directa.</p>
+
+            <span class="feature-icon">
+              ✓
+            </span>
+
+            <h3>
+              Sencilla desde el primer día
+            </h3>
+
+            <p>
+              Crea clientes, configura tu empresa, genera facturas PDF
+              y trabaja con una interfaz limpia y directa.
+            </p>
+
           </article>
+
         </div>
       </div>
     </section>
 
+
+    <!-- VERI*FACTU -->
     <section id="verifactu" class="section verifactu-section">
       <div class="container split">
+
         <div>
-          <span class="eyebrow">VeriFactu</span>
-          <h2>Cumple con la normativa sin complicaciones.</h2>
-          <p>FacturApp incorpora funcionalidad VeriFactu para ayudarte a cumplir con la normativa sin complicaciones,
-            con validaciones, trazabilidad y generación de facturas preparadas para trabajar de forma segura.</p>
-        </div>
-        <div class="notice-card">
-          <h3>VeriFactu funcionando</h3>
-          <p>La integración VeriFactu ya está operativa y seguirá mejorando con nuevas validaciones, trazabilidad más
-            visible y ajustes derivados del uso real de la aplicación.</p>
-        </div>
-      </div>
-    </section>
 
-    <section class="section screenshots-section" aria-labelledby="screenshots-title">
-      <div class="container">
-        <div class="section-heading">
-          <h2 id="screenshots-title">Una experiencia limpia para gestionar tus facturas.</h2>
-        </div>
-        <div class="screens-grid">
-          <article class="screen-card">
-            <button class="screenshot-card" type="button" data-lightbox-index="0">
-              <img src="assets/img/screenshots/facturas.webp" alt="Panel de facturas de FacturApp" loading="lazy">
-              <span>Panel de facturas</span>
-            </button>
-          </article>
-          <article class="screen-card">
-            <button class="screenshot-card" type="button" data-lightbox-index="1">
-              <img src="assets/img/screenshots/clientes.webp" alt="Gestión de clientes y empresas en FacturApp"
-                loading="lazy">
-              <span>Clientes y empresas</span>
-            </button>
-          </article>
-          <article class="screen-card">
-            <button class="screenshot-card" type="button" data-lightbox-index="2">
-              <img src="assets/img/screenshots/pdf.webp" alt="Vista previa de factura PDF en FacturApp" loading="lazy">
-              <span>Vista previa PDF</span>
-            </button>
-          </article>
-        </div>
-      </div>
-    </section>
+          <span class="eyebrow">
+            VERI*FACTU
+          </span>
 
-    <section class="section roadmap-section">
-      <div class="container roadmap-card">
-        <span class="eyebrow">Crece con tus sugerencias</span>
-        <h2>Una app flexible, construida alrededor de necesidades reales.</h2>
-        <p>FacturApp nace para ser sencilla, pero no limitada. La app crecerá escuchando a autónomos y pequeñas empresas
-          que necesitan una herramienta práctica, privada y fácil de usar. Las funciones avanzadas podrán desbloquearse
-          con Premium: un solo pago, infinitos usos.</p>
-      </div>
-    </section>
+          <h2>
+            Facturación preparada para VERI*FACTU.
+          </h2>
 
-    <section id="beta" class="section beta-section">
-      <div class="container beta-box">
-        <div>
-          <span class="eyebrow">Versión beta</span>
-          <h2>Gratis para siempre. Ahora en beta.</h2>
-          <p>FacturApp es gratuita para su uso principal, no solo durante la beta. Esta versión puede recibir cambios
-            frecuentes, por lo que se recomienda hacer copias de seguridad mientras la aplicación sigue evolucionando.
+          <p>
+            FacturApp incorpora funcionalidades orientadas a VERI*FACTU,
+            con validaciones, trazabilidad y generación de registros preparados
+            para adaptarse a los requisitos establecidos por la AEAT.
           </p>
+
         </div>
+
+
+        <div class="notice-card">
+
+          <h3>
+            Integración en evolución
+          </h3>
+
+          <p>
+            La integración con VERI*FACTU ya ha sido probada correctamente
+            en el entorno de pruebas de la AEAT y continúa evolucionando
+            para completar su preparación para producción y adaptarse
+            a los cambios normativos y técnicos que puedan producirse.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CAPTURAS -->
+    <section class="section screenshots-section" aria-labelledby="screenshots-title">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <h2 id="screenshots-title">
+            Una experiencia limpia para gestionar tus facturas.
+          </h2>
+
+        </div>
+
+
+        <div class="screens-grid">
+
+          <article class="screen-card">
+
+            <button class="screenshot-card" type="button" data-lightbox-index="0">
+
+              <img src="assets/img/screenshots/facturas.webp"
+                alt="Panel de facturas del programa de facturación FacturApp" width="800" height="230" loading="lazy">
+
+              <span>
+                Panel de facturas
+              </span>
+
+            </button>
+
+          </article>
+
+
+          <article class="screen-card">
+
+            <button class="screenshot-card" type="button" data-lightbox-index="1">
+
+              <img src="assets/img/screenshots/clientes.webp" alt="Gestión de clientes y empresas en FacturApp"
+                width="800" height="230" loading="lazy">
+
+              <span>
+                Clientes y empresas
+              </span>
+
+            </button>
+
+          </article>
+
+
+          <article class="screen-card">
+
+            <button class="screenshot-card" type="button" data-lightbox-index="2">
+
+              <img src="assets/img/screenshots/pdf.webp" alt="Vista previa de una factura PDF generada con FacturApp"
+                width="800" height="230" loading="lazy">
+
+              <span>
+                Vista previa PDF
+              </span>
+
+            </button>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ROADMAP -->
+    <section class="section roadmap-section">
+
+      <div class="container roadmap-card">
+
+        <span class="eyebrow">
+          Crece con tus sugerencias
+        </span>
+
+        <h2>
+          Una app flexible, construida alrededor de necesidades reales.
+        </h2>
+
+        <p>
+          FacturApp nace para ser sencilla, pero no limitada.
+          La app crecerá escuchando a autónomos y pequeñas empresas
+          que necesitan una herramienta práctica, privada y fácil de usar.
+          Las funciones avanzadas podrán desbloquearse con Premium:
+          un solo pago, infinitos usos.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq-section">
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            Preguntas frecuentes
+          </span>
+
+          <h2>
+            Todo lo que necesitas saber antes de empezar.
+          </h2>
+
+          <p>
+            FacturApp está pensada para que puedas empezar a facturar
+            de forma sencilla, sin suscripciones, sin depender de la nube
+            y sin complicaciones innecesarias.
+          </p>
+
+        </div>
+
+
+        <div class="faq-list">
+
+
+          <details class="faq-item">
+
+            <summary>
+              ¿FacturApp es realmente gratis?
+            </summary>
+
+            <div class="faq-answer">
+
+              <div class="faq-answer-inner">
+
+                <p>
+                  Sí. FacturApp es gratuita para su uso principal
+                  y la intención es que siga siéndolo para siempre.
+                </p>
+
+                <p>
+                  Queremos recuperar una idea que cada vez parece menos habitual:
+                  <strong>
+                    usar un programa sin tener que pagar una suscripción todos los meses.
+                  </strong>
+                  Lo instalas en tu ordenador y puedes seguir utilizándolo
+                  sin cuotas mensuales.
+                </p>
+
+                <p>
+                  En el futuro podrán existir funcionalidades avanzadas opcionales,
+                  pero la aplicación principal seguirá pudiendo utilizarse gratuitamente.
+                </p>
+
+              </div>
+            </div>
+
+          </details>
+
+
+          <details class="faq-item">
+
+            <summary>
+              ¿Dónde se guardan mis facturas y mis datos?
+            </summary>
+
+            <div class="faq-answer">
+
+              <div class="faq-answer-inner">
+
+                <p>
+                  En tu propio ordenador. Tus empresas, clientes, facturas
+                  y demás información se almacenan localmente y no se suben
+                  automáticamente a servidores de Codificatec.
+                </p>
+
+                <p>
+                  <strong>
+                    Tus datos son tuyos y permanecen bajo tu control.
+                  </strong>
+                  FacturApp no necesita almacenar tu información comercial
+                  en una nube para funcionar.
+                </p>
+
+              </div>
+            </div>
+
+          </details>
+
+
+          <details class="faq-item">
+
+            <summary>
+              ¿Necesito conexión a Internet para utilizar FacturApp?
+            </summary>
+
+            <div class="faq-answer">
+
+              <div class="faq-answer-inner">
+
+                <p>
+                  No para el trabajo habitual. Puedes gestionar empresas
+                  y clientes, preparar facturas, consultar información
+                  y generar documentos aunque no tengas conexión a Internet.
+                </p>
+
+                <p>
+                  Algunas funciones que dependen necesariamente de servicios externos,
+                  como el envío de correos electrónicos o las comunicaciones
+                  con VERI*FACTU, sí requieren conexión a Internet.
+                </p>
+
+                <p>
+                  Puedes preparar tus facturas cuando quieras
+                  y realizar los envíos que requieran conexión
+                  cuando vuelvas a estar conectado.
+                </p>
+
+              </div>
+            </div>
+
+          </details>
+
+
+          <details class="faq-item">
+
+            <summary>
+              Ya utilizo Excel u otro programa. ¿Tengo que introducir todos mis datos otra vez?
+            </summary>
+
+            <div class="faq-answer">
+
+              <div class="faq-answer-inner">
+
+                <p>
+                  No. FacturApp incorpora un importador inteligente pensado
+                  para facilitar el cambio desde hojas de cálculo
+                  y otras aplicaciones.
+                </p>
+
+                <p>
+                  Puedes importar tus datos, relacionar las columnas
+                  de tu archivo con los campos de FacturApp
+                  y revisar la información antes de crear empresas,
+                  clientes o facturas.
+                </p>
+
+                <p>
+                  Si tus datos de origen están bien estructurados,
+                  <strong>
+                    en menos de 10 minutos puedes tener el programa preparado
+                    para empezar a facturar
+                  </strong>,
+                  sin tener que volver a introducir manualmente toda tu información.
+                </p>
+
+              </div>
+            </div>
+
+          </details>
+
+
+          <details class="faq-item">
+
+            <summary>
+              ¿FacturApp funciona con VERI*FACTU?
+            </summary>
+
+            <div class="faq-answer">
+
+              <div class="faq-answer-inner">
+
+                <p>
+                  FacturApp incorpora funcionalidades orientadas a VERI*FACTU,
+                  incluyendo validaciones, trazabilidad
+                  y generación de los registros necesarios.
+                </p>
+
+                <p>
+                  La integración ya ha sido probada correctamente
+                  en el entorno de pruebas de la AEAT
+                  y continúa evolucionando para completar
+                  su preparación para producción
+                  y adaptarse a los requisitos técnicos
+                  y normativos vigentes.
+                </p>
+
+              </div>
+            </div>
+
+          </details>
+
+
+          <details class="faq-item">
+
+            <summary>
+              ¿Mis datos se envían a Codificatec?
+            </summary>
+
+            <div class="faq-answer">
+
+              <div class="faq-answer-inner">
+
+                <p>
+                  No. FacturApp no envía automáticamente a Codificatec
+                  las facturas, clientes, empresas ni demás información
+                  que almacenes en la aplicación.
+                </p>
+
+                <p>
+                  Cuando una funcionalidad requiera comunicarse con
+                  un servicio externo, será únicamente para realizar
+                  la operación correspondiente, por ejemplo
+                  una comunicación con la AEAT
+                  o el envío de un correo electrónico.
+                </p>
+
+              </div>
+            </div>
+
+          </details>
+
+
+          <details class="faq-item">
+
+            <summary>
+              ¿Para quién está pensada FacturApp?
+            </summary>
+
+            <div class="faq-answer">
+
+              <div class="faq-answer-inner">
+
+                <p>
+                  Principalmente para autónomos, profesionales
+                  y pequeñas empresas que quieren gestionar
+                  su facturación de una forma sencilla,
+                  privada y sin depender de una plataforma en la nube.
+                </p>
+
+              </div>
+            </div>
+
+          </details>
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- BETA -->
+    <section id="beta" class="section beta-section">
+
+      <div class="container beta-box">
+
+        <div>
+
+          <span class="eyebrow">
+            Versión beta
+          </span>
+
+          <h2>
+            Gratis para siempre. Ahora en beta.
+          </h2>
+
+          <p>
+            FacturApp es gratuita para su uso principal,
+            no solo durante la beta.
+            Esta versión puede recibir cambios frecuentes,
+            por lo que se recomienda hacer copias de seguridad
+            mientras la aplicación sigue evolucionando.
+          </p>
+
+        </div>
+
+
         <a id="bottomDownloadButton" class="btn btn-primary"
           href="https://github.com/AlbertoMF1996/FacturasApp_releases/releases/latest/download/FacturaApp-win-Setup.exe"
-          download>Descargar para Windows</a>
+          download>
+          Descargar para Windows
+        </a>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- LIGHTBOX -->
   <div class="lightbox" data-lightbox hidden aria-hidden="true" role="dialog" aria-modal="true"
     aria-label="Visor de capturas de FacturApp">
-    <button class="lightbox-close" type="button" data-lightbox-close aria-label="Cerrar visor">×</button>
-    <button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Captura anterior">‹</button>
+
+    <button class="lightbox-close" type="button" data-lightbox-close aria-label="Cerrar visor">
+      ×
+    </button>
+
+    <button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Captura anterior">
+      ‹
+    </button>
+
+
     <figure class="lightbox-content">
+
       <img class="lightbox-image" data-lightbox-image src="" alt="">
-      <figcaption data-lightbox-caption>Panel resumen</figcaption>
+
+      <figcaption data-lightbox-caption>
+        Panel resumen
+      </figcaption>
+
     </figure>
-    <button class="lightbox-nav lightbox-next" type="button" data-lightbox-next
-      aria-label="Captura siguiente">›</button>
+
+
+    <button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Captura siguiente">
+      ›
+    </button>
+
   </div>
 
+
+  <!-- FOOTER -->
   <footer class="site-footer">
+
     <div class="container footer-inner">
-      <p>© <span data-year></span> Codificatec · FacturApp beta</p>
+
+      <p>
+        © <span data-year></span> Codificatec · FacturApp beta
+      </p>
+
       <div class="footer-links">
-        <a href="avisos-legales.html">Avisos legales</a>
-        <a href="terminos.html">Términos de uso</a>
+
+        <a href="avisos-legales.html">
+          Avisos legales
+        </a>
+
+        <a href="terminos.html">
+          Términos de uso
+        </a>
+
       </div>
+
     </div>
+
   </footer>
 
+
+  <!-- DESCARGA STICKY -->
   <div id="stickyDownload" class="sticky-download">
-    <span>FacturApp gratis para Windows</span>
+
+    <span>
+      FacturApp gratis para Windows
+    </span>
+
     <a class="btn btn-primary"
       href="https://github.com/AlbertoMF1996/FacturasApp_releases/releases/latest/download/FacturaApp-win-Setup.exe"
-      download>Descargar para Windows</a>
+      download>
+      Descargar para Windows
+    </a>
+
   </div>
 
+
   <script src="assets/js/main.js" defer></script>
+
 </body>
 
 </html>
