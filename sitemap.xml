@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://codificatec.es/</loc>
-  </url>
-
-  <url>
-    <loc>https://codificatec.es/avisos-legales.html</loc>
-  </url>
-
-  <url>
-    <loc>https://codificatec.es/terminos.html</loc>
-  </url>
+  <url><loc>https://codificatec.es/</loc></url>
+  <url><loc>https://codificatec.es/programa-facturacion/</loc></url>
+  <url><loc>https://codificatec.es/verifactu/</loc></url>
+  <url><loc>https://codificatec.es/autonomos/</loc></url>
+  <url><loc>https://codificatec.es/pymes/</loc></url>
+  <url><loc>https://codificatec.es/funcionalidades/</loc></url>
+  <url><loc>https://codificatec.es/precios/</loc></url>
+  <url><loc>https://codificatec.es/descargar/</loc></url>
+  <url><loc>https://codificatec.es/guias/</loc></url>
+  <url><loc>https://codificatec.es/avisos-legales/</loc></url>
+  <url><loc>https://codificatec.es/terminos/</loc></url>
 </urlset>

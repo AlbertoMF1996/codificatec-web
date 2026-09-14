@@ -1,0 +1,19 @@
+# Añadir dentro del bloque server {} de codificatec.es
+
+# URLs antiguas -> nuevas
+location = /index.html {
+    return 301 https://codificatec.es/;
+}
+
+location = /avisos-legales.html {
+    return 301 https://codificatec.es/avisos-legales/;
+}
+
+location = /terminos.html {
+    return 301 https://codificatec.es/terminos/;
+}
+
+# Permite servir /carpeta/ mediante /carpeta/index.html
+location / {
+    try_files $uri $uri/ $uri/index.html =404;
+}
